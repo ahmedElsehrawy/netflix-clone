@@ -1,0 +1,54 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* Animations */
+  transition-timing-function: ease-in;
+  transition: all 0.7s;
+}
+.nav_logo {
+  position: fixed;
+  left: 20px;
+  width: 80px;
+  object-fit: contain;
+}
+
+.nav_avatar {
+  position: fixed;
+  right: 20px;
+  width: 30px;
+  object-fit: contain;
+}
+
+.nav_black {
+  background-color: #111;
+}
+
+.contact__usLink {
+  position: absolute;
+  top: 10px;
+  right: 60px;
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
+
+.contactUs {
+  padding: 12px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 7px;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid rgba(255, 255, 255, 0.432);
+}
+
+.contactUs:hover {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+}
