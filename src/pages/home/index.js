@@ -1,8 +1,8 @@
 import React from "react";
-import Row from "./Row";
-import requests from "./requests";
-import Nav from "./Nav";
-import Banner from "./Banner";
+import Row from "../../components/home/Row";
+import requests from "../../utils/requests";
+import Nav from "../../components/layout/navbar";
+import Banner from "../../components/home/Banner";
 function Home() {
   return (
     <div className="home">
